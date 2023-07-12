@@ -49,6 +49,10 @@ public class SmartTv {
 
     public void desligar(){
         ligado = false;
-         System.out.println("--------------------------------------------------\n             DESLIGANDO TV!\n          ENCERRANDO PROGRAMA!                    \n--------------------------------------------------");;
+         System.out.println("--------------------------------------------------\n             DESLIGANDO TV!\n          ENCERRANDO PROGRAMA!                    \n--------------------------------------------------");
+    }
+
+    public void escrever(){
+        System.out.println("--------------------------------------------------\n             OPERACAO NAO PERMITIDA                    \n--------------------------------------------------");
     }
 }

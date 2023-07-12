@@ -25,7 +25,7 @@ public class Usuario {
                 smartTv.desligar();
                 break;
                 default:
-                System.out.println("--------------------------------------------------\n             OPERACAO NAO PERMITIDA                    \n--------------------------------------------------");
+                smartTv.escrever();
                 break;
             }
         }
